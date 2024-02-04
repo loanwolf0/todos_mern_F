@@ -1,0 +1,114 @@
+.todoComp{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-container form {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.main-container form button{
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.main-container form button:hover{
+    background-color: green;
+    color: white;
+}
+
+.main-container form .input{
+    width:90%;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    
+}
+.main-container form .input input{
+    width: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-container .btn{
+    padding: 10px;
+    border: none;
+    width: 9%;
+    border-radius: 10px;
+}
+
+#input{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    
+}
+
+.showTodo-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    margin-top: 80px;
+}
+
+.showTodo-container h2{
+
+}
+
+.todos{
+    width: 100%;
+}
+
+.todo-container{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+.todo-container p{
+    width:85%;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.todo-container .todo-icon{
+    display: flex;
+    width: 15%;
+    justify-content: space-evenly;
+}
+
+.todo-container .todo-icon svg{
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.todo-container .todo-icon svg:hover:last-child{
+    background-color: red;
+    color: white;
+}
+.todo-container .todo-icon svg:hover:nth-child(1){
+    background-color: green;
+    color: white;
+}
