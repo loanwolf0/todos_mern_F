@@ -1,8 +1,8 @@
 /* Original styles */
 
 .todoComp {
-    margin: 0;
-    padding: 0;
+    margin: 2px;
+    padding: 1px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,7 +136,8 @@
 
     .todo-container {
         flex-direction: column;
-        padding: 1px 10px; /* Add top and bottom padding */
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
     .todo-container .todo-icon {
