@@ -136,7 +136,7 @@
 
     .todo-container {
         flex-direction: column;
-        padding: 10px 0; /* Add top and bottom padding */
+        padding: 1px 10px; /* Add top and bottom padding */
     }
 
     .todo-container .todo-icon {
