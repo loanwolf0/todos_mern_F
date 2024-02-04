@@ -7,6 +7,7 @@ import axios from 'axios'
 const TodoComp = () => {
 
     const BASE_URL = 'https://todos-mern-myu1.onrender.com/api'
+    // const BASE_URL = 'http://localhost:5000/api'
     const [todos, setTodos] = useState([]);
     const [todo, setTodo] = useState('')
     // for editing function
